@@ -1,0 +1,305 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: rgb(170, 170, 170);
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*----------------Header-------------------*/
+.header {
+    display: flex;
+}
+
+.pageTitle {
+    margin-left: 4mm;
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.adminLogin {
+    font-size: x-large;
+    color: rgb(170, 170, 170);
+    border-radius: 2mm;
+    text-decoration: none;
+    margin: 5px;
+    height: 8mm;
+    width: 150px;
+}
+
+.adminLogin:hover {
+    color: rgb(110, 110, 110)
+}
+
+/*----------------Menu-------------------*/
+.menu {
+    background-color: rgb(30, 30, 30);
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    list-style-type: none;
+    display: inline-block;
+    width: 10%;
+}
+
+.hrefSite {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.hrefSite:hover {
+    color: rgb(85, 85, 85);
+}
+
+/*----------------Content-------------------*/
+.subpageTitle {
+    color: rgb(170, 170, 170);
+}
+
+.content {
+    background-color: rgb(170, 170, 170);
+    color: rgb(30, 30, 30);
+    margin: 4mm;
+    border-radius: 2mm;
+    width: 80%;
+    display: inline-block;
+}
+
+.textarea {
+    resize: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    background-color: rgb(170, 170, 170);
+    border: 2px solid rgb(85, 85, 85);
+    font-size: 16px;
+    /* transition-duration: 0.6s; */
+}
+
+.textarea:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.textarea:focus {
+    background-color: rgb(210, 210, 210);
+    outline: none;
+}
+
+.button {
+    padding: 6px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(170, 170, 170);
+    border: 2px solid rgb(85, 85, 85);
+    text-decoration: none;
+    color: rgb(30,30,30);
+
+    /* transition-duration: 0.2s; */
+}
+
+.button:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.button:active {
+    background-color: rgb(220, 220, 220);
+}
+
+/*----------------Portfolio-------------------*/
+.contentPortfolio {
+    width: 80%;
+
+    color: rgb(30, 30, 30);
+    margin: 4mm;
+    border-radius: 2mm;
+    display: inline-block;
+}
+
+.singlePortfolioArticle {
+    background-color: rgb(170, 170, 170);
+    margin: 2mm;
+    border-radius: 2mm;
+    display: flex;
+}
+
+.l_disabledSinglePortfolioArticle {
+    background-color: rgb(90, 90, 90);
+    margin: 2mm;
+    border-radius: 2mm;
+    display: flex;
+}
+
+.singleArticleRowLeft {
+    text-decoration: none;
+    color: rgb(30,30,30);
+    margin-left: 2mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+    text-align: left;
+    flex-grow: 6;
+}
+
+.singleArticleRowMiddle {
+    color: rgb(30,30,30);
+    text-decoration: none;
+    /* flex-grow: 1; */
+    width: 300px;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+
+.plusSignToAddAtricle {
+    color: rgb(30,30,30);
+    text-decoration: none;
+    flex-grow: 1;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+
+.singleArticleRowRight {
+    /*singleArticleButton*/
+    text-align: center;
+    color: rgb(30, 30, 30);
+    background-color: rgb(130, 130, 130);
+    border-radius: 2mm;
+    text-decoration: none;
+    font-size: x-large;
+    width: 70px;
+    margin-right: 2mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+
+.contactError{
+    color: red;
+    margin: 0px;
+    font-size: small;
+}
+
+/*----------------Single Article-------------------*/
+.article {
+    background-color: rgb(170, 170, 170);
+    color: rgb(30, 30, 30);
+    border-radius: 4mm;
+    text-align: left;
+}
+
+.articleTitle {
+    display: flex;
+}
+
+.articleTitleName {
+    flex-grow: 6;
+    font-size: xx-large;
+    margin: 8px;
+    /* margin-left: 20px; */
+    display: inline-block;
+}
+
+.articleTitleDate {
+    /* flex-grow: 1; */
+    width: 200px;
+    font-size: small;
+    margin: 8px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+.articleContent {
+    text-align: justify;
+    font-size: medium;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.articleCommentCounter {
+    font-size: large;
+    /* margin-left: 10px; */
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------Single Article-------------------*/
+
+.comment {
+    background-color: rgb(150, 150, 150);
+    border: 2px solid rgb(130, 130, 130);
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.commentTitle {
+    display: flex;
+    margin: 8px;
+}
+
+.commentTitleName {
+    flex-grow: 6;
+    font-size: x-large;
+    display: inline-block;
+}
+
+.commentTitleDate {
+    flex-grow: 1;
+    font-size: small;
+    display: inline-block;
+    text-align: right;
+}
+
+.commentContent {
+    font-size: medium;
+    margin-left: 16px;
+    /* padding-left: 10px; */
+}
+
+
+/*----------------Footer-------------------*/
+.footer {
+    background-color: rgb(170, 170, 170);
+    color: rgb(30, 30, 30);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.l_contactTable{
+    border:1px solid black;
+    display: inline-block;
+}
+
+th, td{
+    font-size: smaller;
+    border:1px solid black;
+    /* display: inline-block; */
+}
+
+.a_table{
+    text-decoration: none;
+    color: rgb(30,30,30);
+}
+
+.contact_more_title{
+    margin-left: 20px;
+    font-size: normal;
+    text-align: left;
+}
+
+.contact_more_value{
+    margin-left: 40px;
+    font-size:smaller;
+    text-align: left;
+}
